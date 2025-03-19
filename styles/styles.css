@@ -41,8 +41,10 @@ main {
     max-width: 840px;
 }
 
-ul p {
+ul h4 {
     color: #fff;
+    margin-bottom: 9px;
+    text-decoration: underline overline;
 }
 
 li a {
