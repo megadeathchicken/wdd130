@@ -47,6 +47,11 @@ ul h4 {
     text-decoration: underline overline;
 }
 
+li {
+    list-style: none;
+    text-align: center;
+}
+
 li a {
     color: cornflowerblue
 }
@@ -104,8 +109,4 @@ footer {
     width: 370px;
     height: auto;
     background-color: rebeccapurple
-}
-
-#check-out-some-of-my-favourite-temples {
-    text-align: right;
 }
