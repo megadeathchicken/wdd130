@@ -1,0 +1,17 @@
+/* .cinzel-<uniquifier> {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+.lora-<uniquifier> {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+body {
+    font-family: Lora, sans-serif
+}
