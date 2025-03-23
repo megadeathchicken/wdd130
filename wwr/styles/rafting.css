@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap') */
+
 /* .cinzel-<uniquifier> {
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
@@ -13,5 +15,5 @@
   } */
 
 body {
-    font-family: Lora, sans-serif
+    font-family: Lora, sans-serif;
 }
