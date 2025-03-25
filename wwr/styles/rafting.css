@@ -67,11 +67,12 @@ article p {
 
 h2 {
   font-family: var(--cinzel);
+  color: var(--black)
 }
 
 p {
-    font-family: var(--lora);
-    margin: 15px;
+  font-family: var(--lora);
+  margin: 15px;
 }
 
 .hero img {
