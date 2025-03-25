@@ -30,21 +30,25 @@ h1 {
   font-family: var(--cinzel);
   font-weight: 700;
   position: absolute;
-  top: 400px;
+  top: 200px;
   color: var(--light-blue)
 }
 
 article {
   display: block;
-  width: 99%;
+  width: 100%;
   background-color: var(--bronze-transparent);
   position: absolute;
-  top: 550px;
+  top: 350px;
   color: #fff
 }
 
 article p {
   text-shadow: 2px 2px 5px var(--oxford);
+}
+
+.hero {
+  position: relative;
 }
 
 .hero h1 {
