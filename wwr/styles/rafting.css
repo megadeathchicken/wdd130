@@ -22,8 +22,37 @@
   --light-blue: #9CDCE3;
   --oxford: #1D2334;
   --black: #000000;
+  /* FONTS */
   --cinzel: Cinzel, sans-serif;
   --lora: Lora, sans-serif;
+}
+
+header {
+  background-color: var(--blue);
+  display: grid;
+  grid-template-columns: 297px 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 1px 30px;
+  border: 7px solid #1d535e;
+  border-style: groove;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header a {
+  color: var(--oxford);
+}
+
+button {
+  background-color: var(--light-blue);
+  font-family: var(--cinzel);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 h1 {
@@ -75,8 +104,24 @@ p {
   margin: 15px;
 }
 
+footer p {
+  text-align: center;
+}
+
 footer a {
   text-decoration: none;
+}
+
+footer img{
+  width: 32px;
+  height: 32px;
+}
+
+.sociallinks {
+  display: block;
+  position: absolute;
+  right: 50px;
+  margin: -40px 0px;
 }
 
 .hero img {
