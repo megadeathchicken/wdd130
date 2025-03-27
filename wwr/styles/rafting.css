@@ -27,6 +27,10 @@
   --lora: Lora, sans-serif;
 }
 
+html {
+  background-color: antiquewhite;
+}
+
 header {
   background-color: var(--blue);
   display: grid;
@@ -65,6 +69,7 @@ h1 {
 
 article {
   display: block;
+  display: flex;
   width: 100%;
   background-color: var(--bronze-transparent);
   position: absolute;
@@ -74,6 +79,10 @@ article {
 
 article p {
   text-shadow: 2px 2px 5px var(--oxford);
+  text-align: justify;
+  order: -1;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .hero {
@@ -95,16 +104,72 @@ article p {
 }
 
 h2 {
+  text-decoration: underline 2px;
+  grid-column: 1 / 6;
+  justify-self: center;
   font-family: var(--cinzel);
-  color: var(--black)
+  font-size: 35px;
+  color: var(--oxford)
 }
 
 p {
   font-family: var(--lora);
   margin: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(50px, auto);
+  margin-top: auto;
+  margin-bottom: auto;
+  border-top: 2px solid var(--oxford);
+  text-align: justify;
+  /* background-image: url("/wwr/images/history.webp") */
+}
+
+#history-image {
+  grid-column: 3 / 4;
+  width: 200px;
+  justify-self: center;
+}
+
+#history1 {
+  grid-column: 1 / 6;
+}
+
+#history2 {
+  grid-column: 1 / 3;
+}
+
+#history3 {
+  grid-column: 4 / 6;
+}
+
+#history4 {
+  grid-column: 1 / 6;
+}
+
+#history5 {
+  grid-column: 1 / 6;
+  justify-self: center;
+}
+
+figure {
+  justify-self: center;
+  text-align: center;
+}
+
+footer {
+  margin-top: 40px;
+  border-top: 2px solid var(--black);
 }
 
 footer p {
+  font-family: var(--lora);
+  font-weight: 600;
   text-align: center;
 }
 
@@ -112,7 +177,7 @@ footer a {
   text-decoration: none;
 }
 
-footer img{
+footer img {
   width: 32px;
   height: 32px;
 }
