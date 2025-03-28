@@ -17,7 +17,7 @@
 :root {
   /* COLOUR PALETTE */
   --bronze: #C08635;
-  --bronze-transparent: #c0863575;
+  --bronze-transparent: #9b6c2ba3;
   --blue: #328B9D;
   --light-blue: #9CDCE3;
   --oxford: #1D2334;
@@ -76,7 +76,7 @@ article {
   display: block;
   display: flex;
   width: 100%;
-  background-color: var(--oxford-transparent);
+  background-color: var(--bronze-transparent);
   position: absolute;
   top: 350px;
   color: #fff
