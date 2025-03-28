@@ -21,6 +21,7 @@
   --blue: #328B9D;
   --light-blue: #9CDCE3;
   --oxford: #1D2334;
+  --oxford-transparent: #1d2334d2;
   --black: #000000;
   /* FONTS */
   --cinzel: Cinzel, sans-serif;
@@ -75,7 +76,7 @@ article {
   display: block;
   display: flex;
   width: 100%;
-  background-color: var(--bronze-transparent);
+  background-color: var(--oxford-transparent);
   position: absolute;
   top: 350px;
   color: #fff
@@ -97,6 +98,13 @@ article p {
   width: 100%;
   text-align: center;
   text-shadow: 2px 2px 5px var(--oxford);
+}
+
+.hero img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .hero article img {
@@ -167,6 +175,9 @@ figure {
 }
 
 footer {
+  display: block;
+  height: 55px;
+  background-color: var(--bronze);
   margin-top: 40px;
   border-top: 2px solid var(--black);
 }
@@ -191,11 +202,4 @@ footer img {
   position: absolute;
   right: 50px;
   margin: -40px 0px;
-}
-
-.hero img {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: auto;
 }
