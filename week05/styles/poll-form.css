@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* COLOUR PALETTE */
+    --bronze: #C08635;
+    --bronze-transparent: #9b6c2ba3;
+    --blue: #328B9D;
+    --light-blue: #9CDCE3;
+    --oxford: #1D2334;
+    --oxford-transparent: #1d2334d2;
+    --black: #000000;
+    /* FONTS */
+    --cinzel: Cinzel, sans-serif;
+    --lora: Lora, sans-serif;
+}
+
+header{
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-family: var(--cinzel);
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: var(--oxford);
+    background: white;
+}
+
+body {
+    color: var(--oxford);
+    font-family: var(--lora);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1 rem;
+    border: 3.5px solid var(--oxford);
+    border-radius: 0.5rem;
+    background-color: antiquewhite;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 2px solid var(--oxford);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: darkblue;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--blue);
+}
+
+footer {
+    margin: 1rem auto 1rem;
+    width: 650px;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--oxford-transparent);
+    border-top: 1px solid var(--oxford-transparent);
+}
+
+/* CLASS SELECTORS */
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    display: flex;
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+    justify-content: space-between;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.places-lived {
+    margin-top: 1.2rem;
+}
