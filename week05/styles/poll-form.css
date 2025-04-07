@@ -70,9 +70,15 @@ label {
     padding-right: 1rem;
 }
 
-input, select, textarea {
+input, select {
     padding: 0.5rem;
     font-size: 1.1rem;
+}
+
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    resize: vertical;
 }
 
 input[type="checkbox"] {

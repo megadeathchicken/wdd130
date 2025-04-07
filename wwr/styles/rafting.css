@@ -1,21 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap') */
-
-/* .cinzel-<uniquifier> {
-    font-family: "Cinzel", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-
-.lora-<uniquifier> {
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  } */
-
 :root {
   /* COLOUR PALETTE */
+  --antique-white: #faebd7;
   --bronze: #C08635;
   --bronze-transparent: #9b6c2ba3;
   --blue: #328B9D;
@@ -29,7 +14,7 @@
 }
 
 html {
-  background-color: antiquewhite;
+  background-color: var(--antique-white);
 }
 
 header {

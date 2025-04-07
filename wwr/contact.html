@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Contact || Willdwater Journey, Co.</title>
+    <title>Contact Us || Willdwater Journey, Co.</title>
     <meta name="description"
         content="Kaitlyn Adams' CONTACT page for her ficticious white water rafting company, 'Willdwater Journey, Co.'.">
     <meta name="author" content="Kaitlyn Adams">
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
@@ -25,6 +25,110 @@
         </nav>
     </header>
 
+    <main>
+        <div class="hero">
+            <img src="images/contact-header-background.png" alt="Beautiful Forest River">
+            <h1>Reach Our Team</h1>
+            <article>
+                <p>We love questions and feedback - and we're always happy to help! Here are some ways to contact us.</p>
+            </article>
+        </div>
+        <aside id="customer-care">
+            <p>Talk to Customer Care</p>
+            <h3>Chat with our adventure team to discover how our services can work best for you and your family.</h3>
+            <h3>(828) 555-0123</h3>
+        </aside>
+        <aside id="customer-support">
+            <p>Contact Customer Support</p>
+            <h3>Our trained professionals are eagerly waiting to help you - so please don't hesitate to reach out!</h3>
+            <a href="#form" id="button">Contact Support</a>
+        </aside>
+        <section class="map">
+            <div class="company-contact">
+                <h2 id="contact1">Willdwater Journey, Co.</h2>
+                <h3 id="contact2">830 Rainbow Springs Rd, Franklin, NC 28734</h3>
+                <h3 id="contact3">info@willdwaterjourney.com</h3>
+                <h3 id="contact4">(828) 555-0123</h3>
+            </div>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26112.05121685075!2d-83.59721210316633!3d35.10655102278545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885ed4c8546d9b29%3A0x3060a5a025dec4ab!2s830%20Rainbow%20Springs%20Rd%2C%20Franklin%2C%20NC%2028734!5e0!3m2!1sen!2sus!4v1743969888485!5m2!1sen!2sus" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section id="meet-our-team">
+            <h2>Meet Our Team!</h2>
+            <figure>
+                <img src="images/happy-employee1.webp" alt="Emily Brooks" width="300">
+                <figcaption>Emily Brooks</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happy-employee2.webp" alt="Sophia Carter" width="300">
+                <figcaption>Sophia Carter</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happy-employee3.webp" alt="Liam Andersen" width="300">
+                <figcaption>Liam Andersen</figcaption>
+            </figure>
+            <div id="emily" class="team">
+                <p>Director of Operations</p>
+                <p>River Guide</p>
+                <p>e.brooks@willdwaterjourney.com</p>
+                <p>(828) 555-0123 ext. 101</p>
+            </div>
+            <div id="sophia" class="team">
+                <p>Marketing Coordinator</p>
+                <p>Logistics Coordinator</p>
+                <p>s.carter@willdwaterjourney.com</p>
+                <p>(828) 555-0123 ext. 102</p>
+            </div>
+            <div id="liam" class="team">
+                <p>Adventure Coordinator</p>
+                <p>River Guide</p>
+                <p>l.andersen@willdwaterjourney.com</p>
+                <p>(828) 555-0123 ext. 103</p>
+            </div>
+        </section>
+
+        <section>
+            <form id="form">
+                <p>Send Us a Message</p>
+                <p id="description">Send us a message and we'll respond within 24 hours.</p>
+                <fieldset id="outside">
+                    <fieldset>
+                        <div>
+                            <label for="fullname">Full Name</label>
+                        </div>
+                        <input type="text" id="fullname" name="fullname" placeholder="John Doe">
+                        <div>
+                            <label for="email">Email</label>
+                        </div>
+                        <input type="text" id="email" name="fullname" placeholder="youremail@email.com">
+                    </fieldset>
+                    
+                    <fieldset class="radio">
+                        <input type="radio" id="inquiry" name="message-type" value="General Inquiry">
+                        <label for="inquiry">General Inquiry</label><br>
+                        <input type="radio" id="reservation" name="message-type" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label><br>
+                        <input type="radio" id="website-suggestion" name="message-type" value="Website Suggestion">
+                        <label for="website-suggestion">Website Suggestion</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <div class="feedback">
+                            <label for="feedback">Message</label>
+                        </div>
+                        <textarea id="feedback" name="feedback" rows="4"
+                            placeholder="I have a question about..."></textarea><br>
+                        <div class="subscribe">
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                            <label for="subscribe">Please subscribe me to the monthly newsletter!</label>
+                        </div>    
+                    </fieldset>
+        
+                <button type="submit">Send Your Message</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
     <footer>
         <p>&copy;2025 Willdwater Journey, Co. | Kaitlyn Adams</p>
         <nav class="sociallinks">
@@ -38,6 +142,9 @@
             <a href="https://instagram.com">
                 <img src="images/instagram.ico" alt="Inspamgram">
             </a>
+        </nav>
+        <nav>
+            <a href="https://app.moqups.com/9xvE3igBbsfRXSWAg0u4jZnTrKMnp0gp/view/page/ad12de680">Wireframe</a>
         </nav>
     </footer>
 </body>
