@@ -256,7 +256,6 @@ form p {
 #description {
   font-family: var(--lora);
   font-weight: 400;
-  font-style: bold;
   font-size: 22px;
   color: var(--oxford-transparent);
   margin-top: auto;
