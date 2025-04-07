@@ -167,6 +167,8 @@ section {
 }
 
 #map {
+  width: 600px;
+  height: 600px;
   position: absolute;
   grid-column: 2 / 6;
   justify-self: right;
