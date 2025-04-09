@@ -5,6 +5,7 @@
     --bronze-transparent: #9b6c2ba3;
     --blue: #328B9D;
     --light-blue: #9CDCE3;
+    --green: #61a051c9;
     --oxford: #1D2334;
     --oxford-transparent: #1d2334d2;
     --black: #000000;
@@ -57,9 +58,10 @@ header a {
 h1 {
   font-family: var(--cinzel);
   font-weight: 700;
+  font-size: 45px;
   position: absolute;
-  top: 50px;
-  color: var(--oxford)
+  top: 25px;
+  color: var(--oxford);
 }
 
 article {
@@ -70,7 +72,7 @@ article {
   position: absolute;
   top: 130px;
   left: 320px;
-  color: #fff
+  color: #fff;
 }
 
 article p {
@@ -132,7 +134,7 @@ h2 {
   justify-self: center;
   font-family: var(--cinzel);
   font-size: 38px;
-  color: var(--oxford)
+  color: var(--oxford);
 }
 
 h3 {
@@ -214,7 +216,7 @@ figcaption {
   /* border: 3px solid black; */
   width: 320px;
   text-align: center;
-  grid-column: 1 / 2
+  grid-column: 1 / 2;
 }
 
 #sophia {
@@ -223,7 +225,7 @@ figcaption {
   /* border: 3px solid black; */
   width: 320px;
   text-align: center;
-  grid-column: 2 / 3
+  grid-column: 2 / 3;
 }
 
 #liam {
@@ -244,7 +246,7 @@ form {
   border-radius: 2rem;
   background-color: #9cdce3a3;
   display: grid;
-  grid-column: 2 / 3
+  grid-column: 2 / 3;
 }
 
 form p {

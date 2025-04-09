@@ -1,0 +1,247 @@
+:root {
+  /* COLOUR PALETTE */
+  --antique-white: #faebd7;
+  --bronze: #C08635;
+  --bronze-transparent: #9b6c2ba3;
+  --blue: #328B9D;
+  --light-blue: #9CDCE3;
+  --green: #61a051c9;
+  --oxford: #1D2334;
+  --oxford-transparent: #1d2334d2;
+  --black: #000000;
+  /* FONTS */
+  --cinzel: Cinzel, sans-serif;
+  --lora: Lora, sans-serif;
+}
+
+html {
+  background-color: var(--antique-white);
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: var(--blue);
+  display: grid;
+  grid-template-columns: 297px 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 1px 30px;
+  border: 7px solid #1d535e;
+  border-style: groove;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header a {
+  color: var(--oxford);
+}
+
+.button {
+  padding: 1px 6px;
+  border: 1px outset buttonborder;
+  border-radius: 3px;
+  color: var(--oxford);
+  background-color: var(--light-blue);
+  text-decoration: none;
+  font-size: 25px;
+  font-family: var(--cinzel);
+  font-weight: 600;
+}
+
+h1 {
+  font-family: var(--cinzel);
+  font-weight: 700;
+  position: absolute;
+  top: 200px;
+  color: var(--light-blue);
+  font-size: 45px;
+}
+
+.hero {
+  position: relative;
+  border-bottom: 2px solid var(--oxford);
+}
+
+.hero h1 {
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 2px 5px var(--oxford);
+}
+
+.hero img {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  text-decoration: underline 2px;
+  grid-column: 1 / 6;
+  justify-self: center;
+  font-family: var(--cinzel);
+  font-size: 35px;
+  color: var(--oxford);
+}
+
+p {
+  font-family: var(--lora);
+  margin: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(50px, auto);
+  row-gap: 1px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-bottom: 2px solid var(--oxford);
+  text-align: justify;
+  row-gap: 1px;
+}
+
+img.image-right {
+  grid-column: 4 / 6;
+  grid-row: 2 / 5;
+  width: 480px;
+  justify-self: center;
+  align-self: center;
+}
+
+p.image-right {
+  grid-column: 1 / 4;
+}
+
+img.image-left {
+  grid-column: 1 / 3;
+  grid-row: 2 / 5;
+  width: 480px;
+  justify-self: center;
+  align-self: center;
+}
+
+p.image-left {
+  grid-column: 3 / 6;
+  text-align-last: right;
+}
+
+.schedule {
+  grid-column: 1 / 6;
+  margin: 15px;
+  text-align: center;
+}
+
+footer {
+  display: block;
+  height: 55px;
+  background-color: var(--bronze);
+  margin-top: 40px;
+  border-top: 2px solid var(--black);
+}
+
+footer p {
+  font-family: var(--lora);
+  font-weight: 600;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer img {
+  width: 32px;
+  height: 32px;
+}
+
+.sociallinks {
+  display: block;
+  position: absolute;
+  right: 50px;
+  margin: -40px 0px;
+}
+
+.button {
+  padding: 1px 6px;
+  border: 1px outset buttonborder;
+  border-radius: 3px;
+  color: var(--oxford);
+  background-color: var(--light-blue);
+  text-decoration: none;
+  font-size: 25px;
+  font-family: var(--cinzel);
+  font-weight: 600;
+}
+
+.schedule {
+  background-color: var(--green);
+}
+
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: var(--lora);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+table a {
+  text-decoration: none;
+  color: var(--oxford);
+}
+
+.table {
+  margin: 75px 15px;
+}
+
+caption {
+  caption-side: top;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  font-size: 22px;
+  font-weight: 400;
+	font-style: italic;
+}
+
+thead,
+tfoot {
+  background-color: var(--green);
+}
+
+thead th {
+	font-size: 1.15rem;
+	color: var(--oxford);
+}
+
+th,
+td {
+  border: 1px solid var(--oxford-transparent);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: var(--bronze-transparent);
+}
+
+tfoot th {
+  font-size: large;
+  text-align: center;
+}
+
+tfoot td {
+  font-weight: bold;
+  font-family: var(--cinzel);
+  font-style: bold;
+}
